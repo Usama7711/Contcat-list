@@ -144,17 +144,12 @@ const Editcontact = () => {
                                         type="switch"
                                         id="custom-switch"
                                         checked={whatsapp == true ? true : false}
-
                                         onChange={(e) => {
-
                                             setWhatsapp(e.target.checked);
-
                                         }}
                                     />
                                 </td>
-
                             </tr>
-
                         </table>
                     </div>
 
